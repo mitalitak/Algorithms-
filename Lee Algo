@@ -1,3 +1,5 @@
 Given a maze in the form of the binary rectangular matrix, find the shortest path’s length in a maze from a given source to a given destination.
 
 The path can only be constructed out of cells having value 1, and at any given moment, we can only move one step in one of the four directions. The valid moves are:
+
+Use case of lee Algo - The Lee algorithm is one possible solution for maze routing problems. It always gives an optimal solution, if one exists, but is slow and requires large memory for dense layout.
