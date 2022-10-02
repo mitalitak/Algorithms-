@@ -18,9 +18,9 @@ class Solution
         {
             // update the maximum sum of subarray "ending" at index 'i' (by adding the
             // current element to maximum sum ending at previous index 'i-1')
-            maxEndingHere = maxEndingHere + i;
+            //maxEndingHere = maxEndingHere + i;
  
-            maxEndingHere = Integer.max(maxEndingHere, 0);
+            maxEndingHere = Integer.max(maxEndingHere + i, 0);
  
             // update the result if the current subarray sum is found to be greater
             maxSoFar = Integer.max(maxSoFar, maxEndingHere);
