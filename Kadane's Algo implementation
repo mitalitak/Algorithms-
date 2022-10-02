@@ -23,6 +23,8 @@ class Solution
             maxEndingHere = Integer.max(maxEndingHere, 0);
  
             // update the result if the current subarray sum is found to be greater
+            int j = maxEndingHere +j;
+            System.out.println("intermediate value" + j);
             maxSoFar = Integer.max(maxSoFar, maxEndingHere);
         }
  
